@@ -4,7 +4,7 @@
 #include "errors/errorMessages.h"
 #include "flights/flight.h"
 #include "cars/cars.h"
-#include "students.h"
+#include "students/students.h"
 #include "library.h"
 
 int main() {
