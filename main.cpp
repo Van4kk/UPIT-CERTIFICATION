@@ -36,8 +36,6 @@ int main() {
             mainMenuInvalidOptionError();
             break;
     }
-
-    return 0;
 }
 
 
