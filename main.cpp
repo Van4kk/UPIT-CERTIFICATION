@@ -1,5 +1,5 @@
 #include <iostream>
-#include "mainMenu.h"
+#include "menus/mainMenu.h"
 #include "messages.h"
 #include "errors/errorMessages.h"
 #include "flight.h"

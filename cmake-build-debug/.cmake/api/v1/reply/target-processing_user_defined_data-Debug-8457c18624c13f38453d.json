@@ -193,12 +193,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "mainMenu.cpp",
+			"path" : "menus/mainMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "mainMenu.h",
+			"path" : "menus/mainMenu.h",
 			"sourceGroupIndex" : 1
 		},
 		{
