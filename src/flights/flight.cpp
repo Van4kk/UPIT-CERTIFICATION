@@ -7,7 +7,7 @@ void flights(){
 }
 
 void addFlight(Flight &flight, std::fstream &file) {
-    file.open("flights.txt", std::ios::out | std::ios::app);
+    file.open("flights_errors.txt", std::ios::out | std::ios::app);
     if (file.is_open()) {
         file << flight.flightNumber << ","
              << flight.departureCity << ","
@@ -22,7 +22,7 @@ void addFlight(Flight &flight, std::fstream &file) {
 }
 
 void viewFlights(std::fstream &file) {
-    file.open("flights.txt", std::ios::in);
+    file.open("flights_errors.txt", std::ios::in);
     if (file.is_open()) {
         std::string line;
         std::cout << "Flight Number,Departure City,Arrival City,Departure Time,Arrival Time" << std::endl;

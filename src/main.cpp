@@ -2,7 +2,7 @@
 #include "menus/mainMenu.h"
 #include "messages.h"
 #include "errors/errorMessages.h"
-#include "flight.h"
+#include "flights/flight.h"
 #include "cars/cars.h"
 #include "students.h"
 #include "library.h"
@@ -56,7 +56,7 @@ int main() {
 //    int seatsAvailable;
 //};
 //
-//Flight flights[MAX_FLIGHTS];
+//Flight flights_errors[MAX_FLIGHTS];
 //int numFlights = 0;
 //
 //void displayFlight(const Flight& flight) {
@@ -70,14 +70,14 @@ int main() {
 //
 //void displayFlights() {
 //    for (int i = 0; i < numFlights; i++) {
-//        displayFlight(flights[i]);
+//        displayFlight(flights_errors[i]);
 //        std::cout << std::endl;
 //    }
 //}
 //
 //void addFlight() {
 //    if (numFlights == MAX_FLIGHTS) {
-//        std::cout << "Cannot add any more flights. Maximum limit reached." << std::endl;
+//        std::cout << "Cannot add any more flights_errors. Maximum limit reached." << std::endl;
 //        return;
 //    }
 //
@@ -95,14 +95,14 @@ int main() {
 //    std::cout << "Enter Seats Available: ";
 //    std::cin >> flight.seatsAvailable;
 //
-//    flights[numFlights++] = flight;
+//    flights_errors[numFlights++] = flight;
 //}
 //
 //void reserveSeat(const std::string& flightNumber) {
 //    for (int i = 0; i < numFlights; i++) {
-//        if (flights[i].flightNumber == flightNumber) {
-//            if (flights[i].seatsAvailable > 0) {
-//                flights[i].seatsAvailable--;
+//        if (flights_errors[i].flightNumber == flightNumber) {
+//            if (flights_errors[i].seatsAvailable > 0) {
+//                flights_errors[i].seatsAvailable--;
 //                std::cout << "Seat reserved successfully." << std::endl;
 //                return;
 //            } else {
