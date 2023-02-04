@@ -259,12 +259,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "fightsErrorMessage.cpp",
+			"path" : "fightsErrorMessages.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "fightsErrorMessage.h",
+			"path" : "fightsErrorMessages.h",
 			"sourceGroupIndex" : 1
 		},
 		{
