@@ -68,7 +68,8 @@
 				19,
 				21,
 				23,
-				25
+				25,
+				27
 			]
 		}
 	],
@@ -118,7 +119,8 @@
 				19,
 				21,
 				23,
-				25
+				25,
+				27
 			]
 		},
 		{
@@ -137,7 +139,8 @@
 				20,
 				22,
 				24,
-				26
+				26,
+				28
 			]
 		}
 	],
@@ -290,6 +293,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/errors/students_errors/studentsErrorMessages.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/errors/library_errors/libraryErrorMessages.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/errors/library_errors/libraryErrorMessages.h",
 			"sourceGroupIndex" : 1
 		}
 	],
