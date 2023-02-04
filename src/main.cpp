@@ -5,7 +5,7 @@
 #include "flights/flight.h"
 #include "cars/cars.h"
 #include "students/students.h"
-#include "library.h"
+#include "library/library.h"
 
 int main() {
     int choice;
