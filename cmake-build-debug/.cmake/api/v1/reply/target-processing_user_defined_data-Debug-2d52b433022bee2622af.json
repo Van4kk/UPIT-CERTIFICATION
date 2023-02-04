@@ -226,12 +226,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "successMessages.cpp",
+			"path" : "success/successMessages.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "successMessages.h",
+			"path" : "success/successMessages.h",
 			"sourceGroupIndex" : 1
 		},
 		{
