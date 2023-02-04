@@ -1,7 +1,7 @@
 #include <iostream>
 #include "mainMenu.h"
 #include "messages.h"
-#include "errorMessages.h"
+#include "errors/errorMessages.h"
 #include "flight.h"
 #include "cars.h"
 #include "students.h"
